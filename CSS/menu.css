@@ -1,0 +1,27 @@
+#menu{
+	height: 50px;
+	background-color: e53935;	
+}
+#menu ul{
+	margin:0;
+	padding:0;
+}
+#menu li{
+	list-style-type: none;
+	float:left;
+	display: left;
+	width:160px;
+	height:40px;
+	text-align:center;
+	line-height:35px;
+	font-family: Tahoma;
+	font-size:17px;
+}
+#menu li a{
+	text-decoration:none;
+	color: #fafafa;
+}
+#menu li:hover{
+	background-color:#c62828;
+	box-shadow: 0 0 5px rgba(0,0,0,8);	
+}
